@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/crypto-landing-page/assets/logo-ckzJHWwM.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FUTOSHI</title>
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+    <link rel="stylesheet" crossorigin href="/crypto-landing-page/assets/index-GZP0kDQ8.css">
+  </head>
+  <body class="bg-[#0a3149]">
+    <!-- Header -->
+    <nav class="bg-[#0ea5e9]">
+      <div class="flex items-center mx-3 py-2">
+        <a href="/index.html"
+          ><img src="/crypto-landing-page/assets/logo-ckzJHWwM.png" class="w-16" alt="logo"
+        /></a>
+        <img src="data:image/png;base64,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" class="w-36 mt-2 ml-2" alt="" />
+
+        <ul class="lg:flex lg:ml-auto lg:gap-8 hidden lg:block text-white">
+          <li
+            class="font-semibold px-2 py-2 hover:bg-gray-800 rounded transition-all duration-200"
+          >
+            <a href="#"> ROADMAP</a>
+          </li>
+          <li
+            class="font-semibold px-2 py-2 hover:bg-gray-800 rounded transition-all duration-200"
+          >
+            <a href="#"> TOKENOMICS</a>
+          </li>
+          <li
+            class="font-semibold px-2 py-2 hover:bg-gray-800 rounded transition-all duration-200"
+          >
+            <a href="#"> CONTACT</a>
+          </li>
+          <li
+            class="font-semibold px-5 py-2 bg-yellow-400 hover:bg-yellow-500 text-black rounded transition-all duration-200"
+          >
+            <a href="#"> BUY NOW</a>
+          </li>
+        </ul>
+        <a href="https://github.com/MrGrootx/crypto-landing-page" target="_blank"
+          ><ion-icon
+            name="logo-github"
+            width="100%"
+            class="text-3xl px-2 flex ml-32 lg:ml-0"
+          ></ion-icon
+        ></a>
+      </div>
+    </nav>
+
+    <section class="bg-primary text-white px-8">
+      <!-- Home Page-->
+
+      <div class="flex items-center justify-center pt-20 mt-5 mx-auto w-full">
+        <div class="flex items-center justify-center">
+          <div class="items-center ml-32">
+            <h1 class="font-bold text-4xl">
+              FUTOSHI - The King of Crypto Meme
+            </h1>
+            <p class="mt-5 font-semibold text-xl text-gray-300">
+              Coin Name: Futoshi Symbol - MEMEDOG <br />Network: Binance Smart
+              Chain
+            </p>
+
+            <!-- Button-->
+            <div>
+              <button
+                class="px-5 py-3 mt-7 bg-yellow-400 text-black font-bold hover:bg-yellow-500 transition-all duration-200 rounded"
+              >
+                BUY NOW
+              </button>
+              <button
+                class="px-5 py-3 mt-7 ml-4 bg-yellow-400 text-black font-bold hover:bg-yellow-500 transition-all duration-200 rounded"
+              >
+                BUY ON SALE
+              </button>
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <img src="/crypto-landing-page/assets/logo-ckzJHWwM.png" class="w-3/4" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Aboout Page-->
+      <div
+        class="container mt-7 mx-auto bg-gradient-to-t from-blue-500 to-blue-100 px-10 py-4 rounded max-w-7xl mb-32"
+      >
+        <div class="flex">
+          <img src="/crypto-landing-page/assets/profile-dTUwonpV.png" class="w-1/5" alt="" />
+          <div class="m-auto">
+            <h1 class="font-bold text-center text-2xl text-blue-500">
+              About Futoshi
+            </h1>
+            <p class="font-semibold text-gray-600">
+              Futoshi isn't just a MemeCoin; it's an entire Comic Universe named
+              MEMEDOG Comics. We're bringing NFTs, Games, TV Series, and Movies
+              to life, all based on the MEMEDOG Comic Universe. When we profit
+              from selling NFTs, Games, TV Series, and Movies, 50% Burns, 20%
+              Funds Future Projects, and 30% Fuels Coin Marketing.
+            </p>
+
+            <div class="justify-center flex mt-11">
+              <button
+                class="px-7 py-4 bg-yellow-400 text-black font-bold rounded"
+              >
+                LIVE CHART
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ROADMAP -->
+      <div class="container mt-7 mx-auto px-10 py-4 border-b">
+        <h1 class="font-bold text-2xl text-center">ROADMAP</h1>
+
+        <div class="flex justify-center gap-10 mt-8 mb-8">
+          <!-- 1 -->
+          <div
+            class="border w-1/4 rounded bg-blue-500 py-8 hover:translate-x-2 transition hover:shadow duration-500 cursor-pointer"
+          >
+            <h3 class="font-bold text-center">PHASE 1</h3>
+
+            <ul class="ml-8 mt-6 mb-6">
+              <li>• Website Launch ✅</li>
+              <li>• Pre-Sale Website Launch ✅</li>
+              <li>• 10,000+ Holders</li>
+              <li>• Release of the First NFT</li>
+              <li>• Launching WormHole Contract for Cross-Chain</li>
+              <li>• CoinGecko & CoinMarketCap Listing</li>
+            </ul>
+          </div>
+          <!-- 2 -->
+          <div
+            class="border w-1/4 rounded bg-blue-500 py-8 hover:translate-y-2 transition hover:shadow duration-500 cursor-pointer"
+          >
+            <h3 class="font-bold text-center">PHASE 2</h3>
+
+            <ul class="ml-8 mt-6 mb-6">
+              <li>• Website Launch ✅</li>
+              <li>• Pre-Sale Website Launch ✅</li>
+              <li>• 10,000+ Holders</li>
+              <li>• Release of the First NFT</li>
+              <li>• Launching WormHole Contract for Cross-Chain</li>
+              <li>• CoinGecko & CoinMarketCap Listing</li>
+            </ul>
+          </div>
+          <!-- 3 -->
+          <div
+            class="border w-1/4 rounded bg-blue-500 py-8 hover:translate-x-2 transition hover:shadow duration-500 cursor-pointer"
+          >
+            <h3 class="font-bold text-center">PHASE 3</h3>
+
+            <ul class="ml-8 mt-6 mb-6">
+              <li>• Website Launch ✅</li>
+              <li>• Pre-Sale Website Launch ✅</li>
+              <li>• 10,000+ Holders</li>
+              <li>• Release of the First NFT</li>
+              <li>• Launching WormHole Contract for Cross-Chain</li>
+              <li>• CoinGecko & CoinMarketCap Listing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- TOKENOMICS -->
+      <div class="mt-7 mx-auto px-10 py-4">
+        <div class="mt-8 mb-8">
+          <h3 class="text-2xl font-bold text-center">TOKENOMICS</h3>
+          <h4 class="font-semibold text-yellow-500 animate-pulse text-center">
+            INVEST AT YOUR OWN RISK!
+          </h4>
+
+          <!-- Box -->
+          <div class="flex justify-center gap-6 mt-12">
+            <!-- Box 1-->
+            <div class="w-1/3 border border-[#7aceff] rounded bg-[#0c4a6e]">
+              <div class="items-center mx-6 flex flex-col m-9">
+                <img
+                  src="/crypto-landing-page/assets/coinlogo-vEUR_yKF.png"
+                  class="w-[160px]"
+                  alt=""
+                />
+                <h3 class="text-xl font-semibold text-center">TAX</h3>
+                <p class="font-semibold text-gray-400">
+                  5% Buy and Sell Tax on Pre-Sale. There is no tax on buy and
+                  sell after Pre-Sale. 5% For Marketing. All LP tokens will be
+                  Burned.
+                </p>
+
+                <div class="flex justify-center mt-12">
+                  <button
+                    class="font-semibold bg-yellow-500 px-16 rounded-md py-2 hover:bg-yellow-400 duration-200"
+                  >
+                    INVEST
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Box 2-->
+            <div class="w-1/3 border border-[#7aceff] rounded bg-[#0c4a6e]">
+              <div class="items-center mx-6 flex flex-col m-9">
+                <img
+                  src="/crypto-landing-page/assets/coinlogo-vEUR_yKF.png"
+                  class="w-[160px]"
+                  alt=""
+                />
+                <h3 class="text-xl font-semibold text-center">SUPPLY</h3>
+                <p class="font-semibold text-gray-400">
+                  There will be a total of 20,000,000,000,000 tokens in the
+                  supply. 18 Trillion will Circulated in Decentralized Exchanges
+                  (DEx) and 2 Trillion for Marketing and CEx Listing. Remaining
+                  Tokens Burned after Major CEx Listing.
+                </p>
+
+                <div class="flex justify-center mt-12">
+                  <button
+                    class="font-semibold bg-yellow-500 hover:bg-yellow-400 duration-200 px-16 rounded-md py-2"
+                  >
+                    INVEST
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FUTOSHI -->
+      <div class="container mt-7 mx-auto px-10 py-4 bg-[#0c4a6e] rounded-md">
+        <div class="border-b items-center">
+          <div class="flex">
+            <img src="/crypto-landing-page/assets/logo-ckzJHWwM.png" class="w-[130px]" alt="" />
+            <div class="flex gap-4 items-center">
+              <h3 class="text-2xl font-bold">FUTOSHI</h3>
+
+              <div class="pe-6">
+                <h4 class="bg-green-600 rounded-md px-3 py-1">ELON</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-12 flex justify-center gap-16">
+          <!-- 1 -->
+          <div class="w-1/4 border-r border-r-gray-500 uppercase">
+            <div class="text-center items-center">
+              <h3 class="font-bold text-xl">Rank</h3>
+              <span class="font-bold text-xl">271</span>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="w-1/4 border-r border-r-gray-500">
+            <div class="text-center items-center">
+              <h3 class="font-bold text-xl uppercase">Market Cap</h3>
+              <span class="font-bold text-xl">$79.51 M</span>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="w-1/4">
+            <div class="text-center items-center">
+              <h3 class="font-bold text-xl uppercase">Volume</h3>
+              <span class="font-bold text-xl">$5.36 M</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="container mt-24 mx-auto px-10 py-4 mb-32">
+        <div class="flex justify-center">
+          <div class="w-1/3 border border-[#0c4a6e] rounded-md py-3">
+            <h1 class="font-bold text-gray-600 text-2xl text-center">
+              CONTACT US
+            </h1>
+            <h2 class="font-bold text-blue-300 text-3xl text-center mt-5">
+              Get in Touch
+            </h2>
+            <h4 class="font-bold text-white text-center mt-2">
+              Ready to Get Started
+            </h4>
+
+            <div class="flex gap-9 justify-center text-sm mt-4">
+              <h3
+                class="border-b-2 border-b-blue-500 hover:text-gray-400 duration-200"
+              >
+                <a href="">Live Chat</a>
+              </h3>
+              <h3
+                class="border-b-2 border-b-blue-500 hover:text-gray-400 duration-200"
+              >
+                <a href="">Telegram Private Chat Line</a>
+              </h3>
+              <h3
+                class="border-b-2 border-b-blue-500 hover:text-gray-400 duration-200"
+              >
+                <a href="">WhatsApp Group</a>
+              </h3>
+            </div>
+
+            <form
+              class="items-center text-center mt-10 text-black font-semibold"
+            >
+              <input
+                type="text"
+                class="mt-8 mx-auto rounded-md px-2 py-2 bg-gray-100 outline-none border-none mr-4"
+                placeholder="Name"
+              />
+              <input
+                type="text"
+                class="mt-8 mx-auto rounded-md px-2 py-2 bg-gray-100 outline-none border-none"
+                placeholder="Email"
+              />
+              <input
+                type="number"
+                class="mt-8 mx-auto rounded-md px-2 py-2 bg-gray-100 outline-none border-none mr-4"
+                placeholder="Phone"
+              />
+              <input
+                type="text"
+                class="mt-8 mx-auto rounded-md px-2 py-2 bg-gray-100 outline-none border-none"
+                placeholder="Subject"
+              />
+              <div class="">
+                <textarea
+                  cols="30"
+                  rows="10"
+                  class="mt-8 bg-gray-100 outline-none border-none text-black font-semibold px-2 rounded h-32 resize-none"
+                  placeholder="Type Message..."
+                ></textarea>
+              </div>
+              <button
+                class="bg-yellow-500 px-8 py-1 rounded mt-6 hover:bg-yellow-500 duration-200"
+              >
+                SEND
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="bg-gray-500 border-gray-500" />
+    <footer class="">
+      <div class="mx-9 my-3 flex justify-between">
+        <div class=" items-center text-white text-sm flex">
+          <img src="/crypto-landing-page/assets/logo-ckzJHWwM.png" class="w-[90px]" alt="" />
+          <h2>
+            © 2023 Designed by
+            <a
+              href="https://github.com/MrGrootx"
+              class="font-bold text-blue-500"
+              target="_blank"
+              >Mr Groot</a
+            >. All Rights Reserved.
+          </h2>
+          
+        </div>
+        <div class="flex gap-3 cursor-pointer">
+          <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%20viewBox='0%200%2016%2016'%20class='fill-current%20cursor-pointer%20transition%20hover:text-primary'%3e%3cpath%20d='M8%200C3.58%200%200%203.58%200%208c0%203.54%202.29%206.53%205.47%207.59c.4.07.55-.17.55-.38c0-.19-.01-.82-.01-1.49c-2.01.37-2.53-.49-2.69-.94c-.09-.23-.48-.94-.82-1.13c-.28-.15-.68-.52-.01-.53c.63-.01%201.08.58%201.23.82c.72%201.21%201.87.87%202.33.66c.07-.52.28-.87.51-1.07c-1.78-.2-3.64-.89-3.64-3.95c0-.87.31-1.59.82-2.15c-.08-.2-.36-1.02.08-2.12c0%200%20.67-.21%202.2.82c.64-.18%201.32-.27%202-.27c.68%200%201.36.09%202%20.27c1.53-1.04%202.2-.82%202.2-.82c.44%201.1.16%201.92.08%202.12c.51.56.82%201.27.82%202.15c0%203.07-1.87%203.75-3.65%203.95c.29.25.54.73.54%201.48c0%201.07-.01%201.93-.01%202.2c0%20.21.15.46.55.38A8.012%208.012%200%200%200%2016%208c0-4.42-3.58-8-8-8z'%3e%3c/path%3e%3c/svg%3e" alt="" /> 
+          <img src="data:image/svg+xml,%3csvg%20width='40'%20height='41'%20viewBox='0%200%2040%2041'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M34.4417%206.27453L4.89166%2017.6695C2.875%2018.4795%202.88666%2019.6045%204.52166%2020.1062L12.1083%2022.4729L29.6617%2011.3979C30.4917%2010.8929%2031.25%2011.1645%2030.6267%2011.7179L16.405%2024.5529H16.4017L16.405%2024.5545L15.8817%2032.3745C16.6483%2032.3745%2016.9867%2032.0229%2017.4167%2031.6079L21.1017%2028.0245L28.7667%2033.6862C30.18%2034.4645%2031.195%2034.0645%2031.5467%2032.3779L36.5783%208.66453C37.0933%206.59953%2035.79%205.66453%2034.4417%206.27453Z'%20fill='%233EBEDB'/%3e%3c/svg%3e" alt="" />
+          <img src="data:image/svg+xml,%3csvg%20width='40'%20height='41'%20viewBox='0%200%2040%2041'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M39.405%208.30783C38.0133%208.92449%2036.5183%209.34116%2034.9467%209.52949C36.5683%208.55915%2037.7816%207.03194%2038.36%205.23283C36.8364%206.13781%2035.1689%206.77482%2033.43%207.11616C32.2606%205.8676%2030.7118%205.04004%2029.0239%204.76195C27.336%204.48386%2025.6035%204.77081%2024.0954%205.57825C22.5873%206.38568%2021.388%207.66843%2020.6836%209.22733C19.9792%2010.7862%2019.8092%2012.5341%2020.2%2014.1995C17.1128%2014.0445%2014.0927%2013.2421%2011.3357%2011.8443C8.57871%2010.4466%206.14641%208.48476%204.19668%206.08616C3.53001%207.23616%203.14668%208.56949%203.14668%209.98949C3.14593%2011.2678%203.46073%2012.5266%204.06314%2013.654C4.66555%2014.7815%205.53694%2015.7429%206.60001%2016.4528C5.36714%2016.4136%204.16146%2016.0805%203.08334%2015.4812V15.5812C3.08322%2017.3741%203.7034%2019.1118%204.83865%2020.4995C5.9739%2021.8872%207.5543%2022.8394%209.31168%2023.1945C8.16798%2023.504%206.9689%2023.5496%205.80501%2023.3278C6.30084%2024.8705%207.26667%2026.2195%208.56729%2027.186C9.86791%2028.1525%2011.4382%2028.6881%2013.0583%2028.7178C10.3081%2030.8768%206.91149%2032.048%203.41501%2032.0428C2.79564%2032.043%202.1768%2032.0068%201.56168%2031.9345C5.1108%2034.2165%209.24224%2035.4275%2013.4617%2035.4228C27.745%2035.4228%2035.5533%2023.5928%2035.5533%2013.3328C35.5533%2012.9995%2035.545%2012.6628%2035.53%2012.3295C37.0488%2011.2311%2038.3599%209.87099%2039.4017%208.31283L39.405%208.30783Z'%20fill='%236ED4FF'/%3e%3c/svg%3e" alt="" />
+          <img src="data:image/svg+xml,%3csvg%20width='40'%20height='41'%20viewBox='0%200%2040%2041'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M17.6077%200.148866C10.9108%201.01775%205.05839%205.16458%202.03845%2011.1807C0.690471%2013.866%200.132603%2016.0517%200.0196135%2019.0903C-0.122236%2022.9089%200.498797%2025.9012%202.09576%2029.0923C3.10409%2031.1074%203.87718%2031.5305%206.07652%2031.2709C8.44344%2030.9914%208.28267%2031.4763%208.28267%2024.6177C8.28267%2018.5088%208.29765%2018.3728%209.0333%2017.7935C9.37731%2017.5226%209.56571%2017.4981%2011.3028%2017.4981C12.717%2017.4981%2013.2965%2017.5497%2013.5903%2017.7017C14.4292%2018.136%2014.4086%2017.9741%2014.4086%2024.1378C14.4086%2029.0228%2014.4351%2029.7628%2014.6109%2029.7628C15.1526%2029.7628%2016.0856%2029.3917%2016.4187%2029.0438L16.7909%2028.6549L16.859%2021.3617L16.927%2014.0686L17.3716%2013.6711L17.8162%2013.2736H19.8009C21.4274%2013.2736%2021.8568%2013.3156%2022.179%2013.5061C22.9822%2013.9811%2022.9849%2014.0059%2022.9849%2020.8915C22.9849%2024.3467%2023.0309%2027.1721%2023.087%2027.1703C23.4449%2027.1591%2024.9844%2026.236%2025.1269%2025.9471C25.2542%2025.6891%2025.2961%2023.7359%2025.2991%2017.9069C25.3035%209.62879%2025.288%209.81358%2026.0238%209.26657C26.3721%209.00765%2026.5912%208.98094%2028.3621%208.98094C30.133%208.98094%2030.3521%209.00765%2030.7004%209.26657C31.4278%209.80731%2031.4208%209.73822%2031.423%2016.4533C31.4242%2020.1827%2031.4754%2022.6809%2031.5499%2022.6538C31.944%2022.5104%2034.8211%2020.0813%2036.0467%2018.8573C38.457%2016.4503%2039.1938%2015.2558%2038.9797%2014.1036C38.8403%2013.3532%2038.0119%2011.4301%2037.2589%2010.1083C34.2066%204.75167%2028.8009%201.08916%2022.6286%200.196017C21.7366%200.0668289%2018.4751%200.0363035%2017.6077%200.148866ZM39.0114%2019.917C35.7404%2024.2764%2031.0184%2028.1204%2025.5917%2030.8417C20.9938%2033.1472%2015.4552%2034.9557%2010.1205%2035.8934C9.22198%2036.0513%208.42561%2036.1987%208.35074%2036.221C8.13048%2036.2866%2010.1079%2037.51%2011.4594%2038.1442C16.983%2040.7361%2023.4089%2040.7239%2028.6491%2038.1112C35.4317%2034.7296%2039.6589%2028.2151%2039.9641%2020.6737C40.0075%2019.6016%2040.0123%2018.7246%2039.9745%2018.7246C39.937%2018.7246%2039.5035%2019.2612%2039.0114%2019.917Z'%20fill='%232D5BD3'/%3e%3c/svg%3e" alt="" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
