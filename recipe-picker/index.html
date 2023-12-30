@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Picker</title>
+    <link rel="stylesheet" href="./public/css/style.css" />
+  </head>
+  <body class="bg-[#46C186]">
+    <section class="container mx-auto">
+      <div class="bg-[#46C186]">
+        <div class="bg-[#3cb57a] py-1">
+          <h2
+            class="text-2xl font-semibold uppercase text-center tracking-widest text-white"
+          >
+            Recipe Picker
+          </h2>
+        </div>
+
+        <div
+          class="grid grid-cols-1 md:grid-cols-4 mx-2 gap-3 text-white text-sm uppercase tracking-widest pb-5 md:mt-5 cursor-pointer"
+        >
+          <div
+            class="bg-[#3A6457] rounded mx-auto w-2/2 p-3 hover:shadow-gray-300 shadow duration-300"
+          >
+            <img src="./public/img/appams.jpg" width="" alt="" />
+            <h2 class="text-center mt-3">Appams</h2>
+          </div>
+
+          <div
+            class="bg-[#3A6457] rounded mx-auto w-2/2 p-3 hover:shadow-gray-300 shadow duration-300"
+          >
+            <img src="./public/img/chicken-biryani.jpg" width="" alt="" />
+            <h2 class="text-center mt-3">chicken biryani</h2>
+          </div>
+
+          <div
+            class="bg-[#3A6457] rounded mx-auto w-2/2 p-3 hover:shadow-gray-300 shadow duration-300"
+          >
+            <img src="./public/img/chicken-noodles.jpg" width="" alt="" />
+            <h2 class="text-center mt-3">chicken noodles</h2>
+          </div>
+
+          <div
+            class="bg-[#3A6457] rounded mx-auto w-2/2 p-3 hover:shadow-gray-300 shadow duration-300"
+          >
+            <img src="./public/img/chapati.jpg" width="" alt="" />
+            <h2 class="text-center mt-3">chapati</h2>
+          </div>
+
+          <div
+            class="bg-[#3A6457] rounded mx-auto w-2/2 p-3 hover:shadow-gray-300 shadow duration-300"
+          >
+            <img src="./public/img/dosa.jpg" width="" alt="" />
+            <h2 class="text-center mt-3">dosa</h2>
+          </div>
+
+          <div
+            class="bg-[#3A6457] rounded mx-auto w-2/2 p-3 hover:shadow-gray-300 shadow duration-300"
+          >
+            <img src="./public/img/Idiyappam.jpg" width="" alt="" />
+            <h2 class="text-center mt-3">Idiyappam</h2>
+          </div>
+
+          <div
+            class="bg-[#3A6457] rounded mx-auto w-2/2 p-3 hover:shadow-gray-300 shadow duration-300"
+          >
+            <img src="./public/img/idli.jpg" width="" alt="" />
+            <h2 class="text-center mt-3">idli</h2>
+          </div>
+
+          <div
+            class="bg-[#3A6457] rounded mx-auto w-2/2 p-3 hover:shadow-gray-300 shadow duration-300"
+          >
+            <img src="./public/img/Puttu.jpg" width="" alt="" />
+            <h2 class="text-center mt-3">Puttu</h2>
+          </div>
+
+          <div
+            class="bg-[#3A6457] rounded mx-auto w-2/2 p-3 hover:shadow-gray-300 shadow duration-300"
+          >
+            <img src="./public/img/sandwich.jpg" width="" alt="" />
+            <h2 class="text-center mt-3">sandwich</h2>
+          </div>
+        </div>
+        <div class="flex justify-center mb-7">
+          <button
+            type="button"
+            id="shuffle_btn"
+            class="bg-[#3B5F54] px-11 py-2 rounded text-2xl fontse uppercase tracking-widest hover:border-b border-[#37ffa5] duration-300 text-gray-200 transition-all"
+          >
+            Shuffle
+          </button>
+        </div>
+      </div>
+
+      <!-- Popup -->
+      <div
+        id="uppenddiv"
+        class="fixed inset-0 bg-gray-500 bg-opacity-80 transition-opacity h-screen hidden"
+      >
+        <div class="mt-56 mx-auto text-end md:bg-[#46c18623] md:pb-12">
+          <button
+            id="closeBtn"
+            type="button"
+            class="px-2 bg-red-500 hover:bg-red-700 rounded text-white py-1 mr-3 mt-1"
+          >
+            CLOSE
+          </button>
+          <div class="w-2/3 mx-auto rounded w-2/2 md:flex justify-center mt-3">
+            <img
+              src="./public/img/chapati.jpg"
+              id="imgset"
+              class="rounded-lg md:w-2/5"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./public/js/main.js" type="module"></script>
+  </body>
+</html>
