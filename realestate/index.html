@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/public/img/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>la la Land | Real Estate</title>
+    <link rel="stylesheet" href="./public/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="container mx-auto">
+      <header class="border-b py-6 sticky top-0 z-10 bg-gray-50 px-2 ">
+        <div class="flex md:justify-between justify-center">
+          <h3 class="text-gray-900 font-semibold text-2xl hidden md:block">La La Land</h3>
+          <ul class="flex">
+            <button
+              id="homebtn"
+              class="hover:border-b border-[#161A30] mr-4 transition-all duration-300"
+            >
+              Home
+            </button>
+            <button
+              class="hover:border-b border-[#161A30] mr-4 transition-all duration-300"
+            >
+              <a href="" id="aboutBtn">About us</a>
+            </button>
+            <button
+              class="hover:border-b border-[#161A30] mr-4 transition-all duration-300"
+            >
+              Apartments
+            </button>
+            <button
+              class="hover:border-b border-[#161A30] mr-4 transition-all duration-300"
+            >
+              Houses
+            </button>
+          </ul>
+        </div>
+      </header>
+
+      <main class="md:h-[1000px] mt-24 -z-0 " id="homepage">
+        <div class="flex px-4 md:px-0">
+          <div class="my-auto">
+            <div class="w-[600px]">
+              <h2 class="md:text-6xl w-[500px] md:w-[700px] text-5xl font-semibold">
+                <span class="text-[#6d28d9] text-center">Own</span> Your Dream
+                House With Us.
+              </h2>
+              <p class="font-semibold md:text-sm mt-4 w-96 md:w-full" >
+                Powerful, self-serve product and growth analytics to help you
+                convert, engage, and retain more.
+              </p>
+            </div>
+          </div>
+          <div class="mt-11 flex justify-end mx-auto">
+            <img
+              src="./public/img/home.png"
+              class="w-auto rounded drop-shadow-lg"
+              alt="mainhomeimg"
+            />
+          </div>
+        </div>
+        <!-- Price Range-->
+        <div class=" h-[250px] w-full md:mt-14 px-10">
+          <div class="items-center flex justify-end my-auto h-full">
+            <div class="border bg-gray-100 rounded p-3 px-8 shadow-md md:w-1/5 w-full">
+              <h2 class="font-semibold">Price Range</h2>
+              <div class="flex gap-2">
+                <input type="range" id="txtSearch" class="items-center" /><div class="text-teal-600">$</div>
+              <span id="priceValue">$</i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <div class="grid md:grid-cols-3 m-5 " id="housesdiv"></div>
+
+      <!-- About us -->
+      <section class="inset-0 fixed bg-white hidden " id="Aboutsection">
+        <div class="container mx-auto mt-24">
+          <div class="mx-24 mt-9">
+            <div
+              class="bg-[#f0f9ff] h-36 items-center flex flex-col justify-center overflow-hidden rounded"
+            >
+              <img
+                src="./public/img/icons/AboutUs.shared.png"
+                class="w-"
+                alt=""
+              />
+              <h4 class="text-xl font-semibold text-gray-900 mt-4">About Us</h4>
+            </div>
+          </div>
+          <!-- para -->
+
+          <div class="mx-32 mt-9">
+            <p>
+              Launched in 2005, lalaland.com, India’s No. 1 property portal,
+              deals with every aspect of the consumers’ needs in the real estate
+              industry. It is an online forum where buyers, sellers and
+              brokers/agents can exchange information about real estate
+              properties quickly, effectively and inexpensively. At
+              lalaland.com, you can advertise a property, search for a property,
+              browse through properties, build your own property microsite, and
+              keep yourself updated with the latest news and trends making
+              headlines in the realty sector.
+            </p>
+
+            <h2 class="mt-6 text-xl font-semibold">✨ Why lalaland.com?</h2>
+
+            <p class="mt-3">
+              At present, lalaland.com prides itself for having around nine lakh
+              property listings spanning across 600+ cities in India. Of all,
+              the website held over 5.7 lakh paid listings at the end of FY
+              2018-19. In addition to providing an online platform to real
+              estate developers, brokers and property owners for listing their
+              property for sale, purchase or rent, lalaland.com offers
+              advertisement stints such as microsites, banners, home page links
+              and project pages to the clients for better visibility and
+              branding in the market. With the ever-evolving online search
+              behaviour, lalaland.com shares updated information pertinent to
+              real estate activities, assisting prospective buyers to make
+              informed buying decision. We make online property search easier,
+              quicker and smarter!
+            </p>
+
+            <div class="bg-[#f0f9ff] mt-8 rounded-md">
+              <div class="py-3 mx-3 items-center flex">
+                <img src="./public/img/icons/reward.png" class="w-16" alt="" />
+                <h3 class="font-semibold ml-5">Awards & Recognitions</h3>
+              </div>
+            </div>
+
+            <div class="mt-5">
+              <li>PropTech Mobile App of the Year Award 2019</li>
+              <li>
+                lalaland.com won the award for ‘Personalized User Journey’ -
+                Best Mobile Appies Award 2015
+              </li>
+              <li>
+                lalaland.com won the award for having the ‘Most Innovative
+                Mobile App’ in the real estate category - CMO ASIA Awards 2012
+              </li>
+              <li>
+                lalaland.com was awarded the ‘Most Admired Real Estate Website
+                of the Year’ at the 3rd CMO Asia Awards for excellence in the
+                real estate segment
+              </li>
+              <li>
+                lalaland.com was recognized as the ‘Best Real Estate Portal’ in
+                2012 - BCI Awards 2012
+              </li>
+              <li>
+                lalaland.com was announced the ‘Best Online Realty Portal’ by
+                the Accommodation Times in 2012 - Accommodation Times Awards
+                2012
+              </li>
+            </div>
+
+            <div class="mt-5">
+              <h3>Connect with us:</h3>
+              <div class="flex justify-between">
+                <div class="flex gap-x-3 mt-2">
+                  <div>
+                    <a
+                      href="http://twitter.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><img
+                        src="/img/icons/x.png"
+                        class="w-10"
+                        alt=""
+                        title="x"
+                    /></a>
+                  </div>
+                  <div>
+                    <a
+                      href="http://facebook.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><img
+                        src="/img/icons/facebook.png"
+                        class="w-10"
+                        alt=""
+                        title="facebook"
+                    /></a>
+                  </div>
+                  <div>
+                    <a
+                      href="http://youtube.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><img
+                        src="/img/icons/yt.png"
+                        class="w-10"
+                        alt=""
+                        title="youtube"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-3 mt-6">
+      <div class="container mx-auto flex justify-between items-center px-3 md:px-0">
+        <div>
+          <h3 class="text-center">Copyright © 2024. All rights reserved.</h3>
+        </div>
+        <div class="">
+          <a
+            href="https://github.com/MrGrootx/real-estate.git"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="30"
+              height="30"
+              viewBox="0 0 30 30"
+              class="stroke-slate-300"
+            >
+              <path
+                d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"
+              ></path></svg
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script defer type="module" src="./public/js/main.js"></script>
+</html>

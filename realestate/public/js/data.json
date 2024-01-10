@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "address": "7240C Argyle St.Lawndale, CA 90260",
+    "bedroom": 6,
+    "bathroom": 3,
+    "squarefeet": 4200,
+    "price": 1100000,
+    "img": "./img/houses/house1.png"
+  },
+  {
+    "id": 2,
+    "address": "798 Talbot St. Bridgewater, NJ 08807",
+    "bedroom": 6,
+    "bathroom": 3,
+    "squarefeet": 4200,
+    "price": 1900000,
+    "img": "./img/houses/house2.png"
+  },
+  {
+    "id": 3,
+    "address": "2 Glen Creek St. Alexandria, VA 22304",
+    "bedroom": 6,
+    "bathroom": 5,
+    "squarefeet": 5200,
+    "price": 200000,
+    "img": "./img/houses/house3.png"
+  },
+  {
+    "id": 4,
+    "address": "84 Woodland St. Cocoa, FL 32927",
+    "bedroom": 6,
+    "bathroom": 4,
+    "squarefeet": 5200,
+    "price": 550000,
+    "img": "./img/houses/house4.png"
+  },
+  {
+    "id": 5,
+    "address": "28 Westport Dr. Warminster, PA 18974",
+    "bedroom": 6,
+    "bathroom": 3,
+    "squarefeet": 5200,
+    "price": 3700000,
+    "img": "./img/houses/house5.png"
+  },
+  {
+    "id": 6,
+    "address": "7240C Argyle St.Lawndale, CA 90260",
+    "bedroom": 8,
+    "bathroom": 4,
+    "squarefeet": 8200,
+    "price": 7700000,
+    "img": "./img/houses/house6.png"
+  },
+  {
+    "id": 7,
+    "address": "28 Westport Dr. Warminster, LA 154174",
+    "bedroom": 11,
+    "bathroom": 6,
+    "squarefeet": 7200,
+    "price": 8700000,
+    "img": "./img/houses/house7.png"
+  },
+  {
+    "id": 8,
+    "address": "28 Westport Dr. Warminster, PA 183374",
+    "bedroom": 5,
+    "bathroom": 4,
+    "squarefeet": 3200,
+    "price": 2700000,
+    "img": "./img/houses/house8.png"
+  },
+  {
+    "id": 9,
+    "address": "7240C Argyle St.Lawndale, CA 90260",
+    "bedroom": 2,
+    "bathroom": 2,
+    "squarefeet": 1200,
+    "price": 100000,
+    "img": "./img/houses/house9.png"
+  },
+  {
+    "id": 10,
+    "address": "2 Glen Creek St. Alexandria, VA 23304",
+    "bedroom": 2,
+    "bathroom": 2,
+    "squarefeet": 1100,
+    "price": 500000,
+    "img": "./img/houses/house10.png"
+  },
+  {
+    "id": 11,
+    "address": "28 Westport Dr. Warminster, PA 23444",
+    "bedroom": 3,
+    "bathroom": 2,
+    "squarefeet": 2200,
+    "price": 120000,
+    "img": "./img/houses/house11.png"
+  },
+  {
+    "id": 12,
+    "address": "2 Glen Creek St. Alexandria, VA 35435",
+    "bedroom": 8,
+    "bathroom": 4,
+    "squarefeet": 8200,
+    "price": 6700000,
+    "img": "./img/houses/house12.png"
+  },
+  {
+    "id": 13,
+    "address": "2 Glen Creek St. Alexandria, VA 35435",
+    "bedroom": 8,
+    "bathroom": 4,
+    "squarefeet": 8200,
+    "price": 6750000,
+    "img": "./img/houses/house12.png"
+  }
+]
