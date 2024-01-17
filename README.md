@@ -31,7 +31,7 @@ CyberDude Networks Challenges
 Welcome to the official repository for study material and challenges provided by CyberDude Networks. This platform serves as a hub for participants engaging in skill development through our challenges.
 Internship
 
-Explore the exciting opportunity offered by CyberDude Networks Pvt. Ltd. as part of our 6-Month Free Internship program. This initiative is designed to enhance participants' skills in the dynamic field of cybersecurity. Our mentor, Mr. Anbuselvan Rocky, provides valuable guidance throughout the internship. For further details, contact [CyberDude Networks here](https://www.instagram.com/anbuselvanrocky/).
+Explore the exciting opportunity offered by CyberDude Networks Pvt. Ltd. as part of our 6-Month Free Internship program. This initiative is designed to enhance participants' skills in the dynamic field of cybersecurity. Our mentor, Mr. Anbuselvan Rocky, provides valuable guidance throughout the internship. For further details, contact [CyberDude Networks](https://www.instagram.com/anbuselvanrocky/) here...
 
 
 
