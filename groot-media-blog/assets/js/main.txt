@@ -1,0 +1,40 @@
+import NewsAPI from "newsapi";
+
+const apiKey1 = "c48331c6ab19466d8db12780d436e488";
+const apiKey2 = "0e5e1dc68818440a8442aa54ab1241d2";
+
+
+const newsapi = new NewsAPI(api, {
+  corsProxyUrl: "https://cors-anywhere.herokuapp.com/",
+});
+
+
+const country = "in";
+
+let requestUrl;
+
+async function getNews() {
+  try {
+    let res = await fetch(requestUrl);
+    if (!res.ok) {
+      alert("Error fetching news");
+      return false;
+    }
+
+    let aw = await res.json();
+    const data = aw.articles
+    data.forEach((res) => {
+      console.log(res);
+    })
+    // Call your generate function here if needed
+    // generate(data.articles);
+  } catch (error) {
+    console.error("Error fetching news:", error);
+  }
+};
+
+// Calling getNews function when the window loads
+window.onload = () => {
+  requestUrl = `https://newsapi.org/v2/top-headlines?country=${country}&category=technology&apiKey=${api}`;
+  getNews(); 
+};
