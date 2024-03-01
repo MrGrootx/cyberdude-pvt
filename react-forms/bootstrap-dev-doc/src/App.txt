@@ -1,0 +1,16 @@
+import Home from "./Pages/Home";
+import TheNavbar from "./components/TheNavbar";
+
+
+function App() {
+  return (
+    <>
+      <TheNavbar/>
+      <section>
+        <Home/>
+      </section>
+    </>
+  );
+}
+
+export default App;
